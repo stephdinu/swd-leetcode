@@ -1,4 +1,26 @@
 public class PalindromeCheck {
+    //Given an integer x, return true if x is a
+    //palindrome, and false otherwise.
+    public boolean isPalindrome(int x) {
+        int check = x;
+        int rest = 0;
+        int sum = 0;
+
+        while (x > 0) {
+            rest = x % 10;
+            sum = sum*10 + rest;
+            x = x / 10;
+        }
+
+        if (sum == check) {
+            return true;
+        }
+
+        return false;
+    }
+
+    //Given a string s, return the longest
+    //palindromic substring in s
     public String longestPalindrome(String s) {
         char[] charArray = s.toCharArray();
         int start = 0;
