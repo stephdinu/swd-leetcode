@@ -1,4 +1,5 @@
 public class PalindromeCheck {
+    // #5
     //Given an integer x, return true if x is a
     //palindrome, and false otherwise.
     public boolean isPalindrome(int x) {
@@ -19,6 +20,7 @@ public class PalindromeCheck {
         return false;
     }
 
+    // #9
     //Given a string s, return the longest
     //palindromic substring in s
     public String longestPalindrome(String s) {

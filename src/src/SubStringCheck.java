@@ -2,6 +2,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class SubStringCheck {
+    //Given a string s, find the length of the longest
+    //substring without repeating characters.
     public int lengthOfLongestSubstring(String s) {
         int i = 0;
         int j = 0;
