@@ -1,7 +1,8 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class SubStringCheck {
+public class Solution3 {
+    // #3
     //Given a string s, find the length of the longest
     //substring without repeating characters.
     public int lengthOfLongestSubstring(String s) {

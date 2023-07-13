@@ -1,12 +1,4 @@
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
-
-public class LinkedListAddition {
+public class Solution2 {
     // #2
     //You are given two non-empty linked lists representing two non-negative integers.
     // The digits are stored in reverse order, and each of their nodes contains a single digit.
